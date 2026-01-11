@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - ScamAware</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">ScamAware</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Common Scams</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="page-header">
+        <div class="container">
+            <h1>Contact & Report a Scam</h1>
+            <p>Get in touch with us or report fraudulent activity</p>
+        </div>
+    </header>
+
+    <section class="content-section">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-form">
+                    <h2>Send us a Message</h2>
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject *</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Select a subject...</option>
+                                <option value="report">Report a Scam</option>
+                                <option value="feedback">General Feedback</option>
+                                <option value="question">Question/Inquiry</option>
+                                <option value="resource">Resource Request</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="6" required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+
+                <div class="contact-info">
+                    <h2>Report a Scam</h2>
+                    <p>If you've been targeted by a scam or have information about fraudulent activity, please report it to the following organizations:</p>
+
+                    <div class="info-box">
+                        <h3>🇺🇸 United States</h3>
+                        <p><strong>FTC (Federal Trade Commission)</strong></p>
+                        <p>Website: <a href="https://reportfraud.ftc.gov" target="_blank">reportfraud.ftc.gov</a></p>
+                        <p>Phone: 1-877-438-4338</p>
+                    </div>
+
+                    <div class="info-box">
+                        <h3>🇬🇧 United Kingdom</h3>
+                        <p><strong>Action Fraud</strong></p>
+                        <p>Website: <a href="https://www.actionfraud.police.uk" target="_blank">www.actionfraud.police.uk</a></p>
+                        <p>Phone: 0300 123 2040</p>
+                    </div>
+
+                    <div class="info-box">
+                        <h3>🇨🇦 Canada</h3>
+                        <p><strong>Canadian Anti-Fraud Centre</strong></p>
+                        <p>Website: <a href="https://www.antifraudcentre-centreantifraude.ca" target="_blank">www.antifraudcentre-centreantifraude.ca</a></p>
+                        <p>Phone: 1-888-495-8501</p>
+                    </div>
+
+                    <h2 style="margin-top: 30px;">Additional Help</h2>
+                    <div class="info-box">
+                        <h3>If You're a Victim</h3>
+                        <ul>
+                            <li>Stop all contact with the scammer</li>
+                            <li>Preserve all evidence (messages, emails, etc.)</li>
+                            <li>Report to your bank/financial institution</li>
+                            <li>File a police report</li>
+                            <li>Monitor your credit and accounts</li>
+                            <li>Consider placing a fraud alert on your credit</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 ScamAware. All rights reserved. | <a href="contact.html">Report a Scam</a></p>
+        </div>
+    </footer>
+</body>
+</html>
