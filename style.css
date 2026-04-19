@@ -133,7 +133,9 @@ body {
 /* Sections */
 .info-section,
 .warning-section,
-.content-section {
+.content-section,
+.plans-section,
+.payment-plans {
     padding: 60px 0;
     background: rgb(250, 248, 248);
     margin-bottom: 0;
@@ -141,6 +143,42 @@ body {
 
 .warning-section {
     background: #e42424;
+}
+
+/* Plans Section */
+.plans {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.plan {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    border-top: 4px solid #667eea;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.plan:hover {
+    transform: translateY(-5px);
+}
+
+.plan h3 {
+    color: #667eea;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+}
+
+.plan ul {
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.plan li {
+    margin-bottom: 0.5rem;
 }
 
 /* Stats Cards */
